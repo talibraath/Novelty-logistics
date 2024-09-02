@@ -33,10 +33,7 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-bold mb-4">Gallery</h3>
           <div className="grid grid-cols-2 gap-2">
-            <img src="/path-to-image1.jpg" alt="Gallery Image 1" className="w-full h-auto rounded-lg" />
-            <img src="/path-to-image2.jpg" alt="Gallery Image 2" className="w-full h-auto rounded-lg" />
-            <img src="/path-to-image3.jpg" alt="Gallery Image 3" className="w-full h-auto rounded-lg" />
-            <img src="/path-to-image4.jpg" alt="Gallery Image 4" className="w-full h-auto rounded-lg" />
+          
           </div>
         </div>
 

@@ -4,9 +4,6 @@ import { useRouter } from 'next/navigation';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-
-
-
 const SignIn = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -14,7 +11,6 @@ const SignIn = () => {
   const router = useRouter();
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => { // Correctly typing the event
     e.preventDefault();
-
 
     try {
       const res = await fetch('/api/signin', {
@@ -89,7 +85,7 @@ const SignIn = () => {
           </div>
           <div className="mt-4 text-center">
             <p className="text-gray-600">
-              Don't have an account?{' '}
+              Don&apos;t have an account?{' '}
               <a href="/signup" className="text-indigo-600 hover:underline">
                 Sign Up
               </a>

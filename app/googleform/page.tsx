@@ -19,7 +19,7 @@ export default function VerificationPage() {
       // If logged in, set loading to false to render the page
       setIsLoading(false);
     }
-  }, []);
+  }, [router]); // Add 'router' to the dependency array
 
   if (isLoading) {
     // While checking authentication, render nothing or a loading spinner

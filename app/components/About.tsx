@@ -7,7 +7,7 @@ export default function About() {
           
           {/* Image Section */}
           <div className="w-full md:w-1/2 mb-8 md:mb-0">
-            <img src="/images/office.jpg" alt="Office Environment" className="rounded-lg shadow-lg" />
+            <Image src="/images/office.jpg"  alt="About Us" width={500} height={300} />
           </div>
           
           {/* Text Section */}

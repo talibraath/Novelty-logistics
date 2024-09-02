@@ -19,7 +19,7 @@ export default function VerificationPage() {
       // If logged in, set loading to false to render the page
       setIsLoading(false);
     }
-  }, []);
+  }, [router]); // Add 'router' to the dependency array
 
   if (isLoading) {
     // While checking authentication, render nothing or a loading spinner
@@ -76,7 +76,7 @@ export default function VerificationPage() {
                 <option value="">Select document type</option>
                 <option value="passport">Passport</option>
                 <option value="id">ID Card</option>
-                <option value="driver_license">Driver's License</option>
+                <option value="driver_license">Driver&apos;s License</option> {/* Escaped the apostrophe */}
                 <option value="utility_bill">Utility Bill</option>
               </select>
             </div>
