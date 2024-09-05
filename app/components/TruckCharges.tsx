@@ -3,6 +3,8 @@ import boxTruckImage from "../../public/images/boxTruckImage.jpg"; // Replace wi
 import dryVanImage from "../../public/images/dryVanImage.jpg"; // Replace with actual image path
 import reeferTruckImage from "../../public/images/reeferTruckImage.jpg"; // Replace with actual image path
 import flatbedTruckImage from "../../public/images/flatbedTruckImage.jpg"; // Replace with actual image path
+import flatbedHotshotImage from "../../public/images/flatbedHotshotImage.jpg"; // Replace with actual image path
+import stepdeckImage from "../../public/images/stepdeckImage.jpg"; // Replace with actual image path
 
 export default function TruckCharges() {
   const trucks = [
@@ -26,10 +28,20 @@ export default function TruckCharges() {
       charge: "4%",
       image: flatbedTruckImage,
     },
+    {
+      name: "Flatbed Hotshot",
+      charge: "6%",
+      image: flatbedHotshotImage,
+    },
+    {
+      name: "Stepdeck",
+      charge: "4%",
+      image: stepdeckImage,
+    },
   ];
 
   return (
-    <div id = 'trucks' className="container mx-auto py-12">
+    <div id="trucks" className="container mx-auto py-12">
       <h2 className="text-4xl font-extrabold text-center mb-10 text-green-500">
         Our Truck Charges
       </h2>
