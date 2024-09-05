@@ -2,7 +2,8 @@
 
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
-
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 const SignUP = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -48,6 +49,8 @@ const SignUP = () => {
   };
 
   return (
+    <>
+    <Header />
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
         <h2 className="text-2xl font-bold mb-6 text-center text-indigo-600">Sign Up</h2>
@@ -96,7 +99,10 @@ const SignUP = () => {
         {success && <p className="mt-4 text-center text-green-600">{success}</p>}
       </div>
     </div>
-  );
+    <Footer/>
+    </>
+);
+
 };
 
 export default SignUP;

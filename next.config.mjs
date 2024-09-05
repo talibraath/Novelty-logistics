@@ -2,7 +2,10 @@
 const nextConfig = {
     reactStrictMode: true,
     images: {
-      domains: ['randomuser.me'], // Configure external domain here
+      domains: ['images.remotePatterns'], // Configure external domain here
+    },
+    images: {
+      domains: ['via.placeholder.com'], // Add the domain here
     },
 };
 
