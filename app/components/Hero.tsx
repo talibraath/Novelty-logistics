@@ -8,8 +8,8 @@ export default function Hero() {
         style={{ backgroundImage: "url('/images/hero1.jpg')" }}
       >
         <div className="text-center text-white">
-          <h1 className="text-5xl font-bold">Expert Dispatching Services!</h1>
-          <p className="mt-4 text-lg">
+          <h1 className="text-5xl font-bold text-green-600">Expert Dispatching Services!</h1>
+          <p className="mt-4 text-lg text-white-600">
             Efficient, reliable truck dispatching with personalized service, competitive pricing, 
             and a focus on safety and sustainability.
           </p>
