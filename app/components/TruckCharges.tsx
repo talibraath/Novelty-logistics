@@ -48,7 +48,9 @@ export default function TruckCharges() {
       <p className="text-center text-lg text-gray-400 mb-12">
         We provide different types of trucks for your business needs at the most competitive rates.
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+      {/* Grid Layout */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {trucks.map((truck, index) => (
           <div
             key={index}
