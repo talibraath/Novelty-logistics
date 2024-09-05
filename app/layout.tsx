@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>Next.js</title>
+        <title>Novelty Logistics</title>
       </head>
       <body>
         {children}
