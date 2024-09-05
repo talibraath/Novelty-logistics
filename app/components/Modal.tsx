@@ -7,11 +7,13 @@ export default function Modal() {
   const [isOpen, setIsOpen] = useState(false);
   const router = useRouter();
 
-  // Check if the user is signed in (for demo purposes, we use localStorage)
   useEffect(() => {
-    const token = localStorage.getItem('token');
-    if (!token) {
-      setIsOpen(true); // Open modal if user is not signed in
+    // Check local storage to see if the user has visited before
+    const hasVisited = localStorage.getItem('hasVisited');
+    
+    if (!hasVisited) {
+      setIsOpen(true);
+      localStorage.setItem('hasVisited', 'true'); // Set the flag so it doesn't show again
     }
   }, []);
 
@@ -35,7 +37,7 @@ export default function Modal() {
           Verify Your Documents
         </h2>
         <p className="text-center text-sm sm:text-base text-gray-700 mb-6">
-          Login to get your documents verified and access our services.
+        Verify your documents for full access to our services.
         </p>
         <div className="flex flex-col sm:flex-row justify-center items-center space-y-3 sm:space-y-0 sm:space-x-4">
           <button

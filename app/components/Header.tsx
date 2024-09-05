@@ -9,12 +9,6 @@ import { useEffect, useState } from 'react';
 export default function Header() {
   const router = useRouter();
   const [isScrolled, setIsScrolled] = useState(false);
-  const isLoggedIn = typeof window !== 'undefined' && !!localStorage.getItem('token');
-
-  const handleLogout = () => {
-    localStorage.removeItem('token');
-    router.push('/signin');
-  };
 
   // Add a scroll event listener to change navbar style on scroll
   useEffect(() => {
@@ -76,12 +70,11 @@ export default function Header() {
             <li><Link href="/" className="hover:text-[#7fe400] transition-colors duration-300">Home</Link></li>
             <li><Link href="/#about" className="hover:text-[#7fe400] transition-colors duration-300">About</Link></li>
             <li><Link href="/#services" className="hover:text-[#7fe400] transition-colors duration-300">Services</Link></li>
-            <li><Link href="/#portfolio" className="hover:text-[#7fe400] transition-colors duration-300">Portfolio</Link></li>
             <li><Link href="/#team" className="hover:text-[#7fe400] transition-colors duration-300">Team</Link></li>
             
             {/* Show Verification link only if the user is logged in */}
-            {isLoggedIn && (
-              <li><Link href="/googleform" className="hover:text-[#7fe400] transition-colors duration-300">Verification</Link></li>
+            { (
+              <li><Link href="/verification" className="hover:text-[#7fe400] transition-colors duration-300">Verification</Link></li>
             )}
 
             <li>
@@ -92,14 +85,6 @@ export default function Header() {
               </Link>
             </li>
 
-            {/* Show Sign In/Sign Out option based on the logged-in status */}
-            <li>
-              {!isLoggedIn ? (
-                <Link href="/signin" className="hover:text-[#7fe400] transition-colors duration-300">Sign In</Link>
-              ) : (
-                <button onClick={handleLogout} className="hover:text-[#7fe400] transition-colors duration-300">Logout</button>
-              )}
-            </li>
           </ul>
         </nav>
       </div>
