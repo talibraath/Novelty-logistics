@@ -47,11 +47,11 @@ export default function Header() {
             </div>
             <div className="flex items-center space-x-2">
               <FaPhoneAlt />
-              <span>(347) 544-9476</span>
+              <span>(507) 677-5881</span>
             </div>
             <div className="flex items-center space-x-2">
               <FaEnvelope />
-              <span>ronniedispatch20@gmail.com</span>
+              <span>  jordandispatch30@gmail.com</span>
             </div>
           </div>
           <div className="flex space-x-3">
@@ -95,7 +95,10 @@ export default function Header() {
               <Link href="/" className="hover:text-[#7fe400] transition-colors duration-300">Home</Link>
             </li>
             <li onClick={handleLinkClick} className="hover:scale-105 transition-transform duration-300">
-              <Link href="/#about" className="hover:text-[#7fe400] transition-colors duration-300">About</Link>
+              <Link href="/verification" className="hover:text-[#7fe400] transition-colors duration-300">Verification</Link>
+            </li>
+            <li onClick={handleLinkClick} className="hover:scale-105 transition-transform duration-300">
+              <Link href="/#trucks" className="hover:text-[#7fe400] transition-colors duration-300">Trucks</Link>
             </li>
             <li onClick={handleLinkClick} className="hover:scale-105 transition-transform duration-300">
               <Link href="/#services" className="hover:text-[#7fe400] transition-colors duration-300">Services</Link>
@@ -103,10 +106,10 @@ export default function Header() {
             <li onClick={handleLinkClick} className="hover:scale-105 transition-transform duration-300">
               <Link href="/#team" className="hover:text-[#7fe400] transition-colors duration-300">Team</Link>
             </li>
-            
             <li onClick={handleLinkClick} className="hover:scale-105 transition-transform duration-300">
-              <Link href="/verification" className="hover:text-[#7fe400] transition-colors duration-300">Verification</Link>
+              <Link href="/#about" className="hover:text-[#7fe400] transition-colors duration-300">About</Link>
             </li>
+            
 
             <li onClick={handleLinkClick}>
               <Link href="#contact">
