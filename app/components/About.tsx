@@ -44,7 +44,7 @@ export default function About() {
             </p>
 
             <p className="text-gray-700 text-lg mb-6 leading-relaxed">
-              Our expert <strong>truck dispatchers</strong> at <strong>Novelty Logistics</strong> work closely with trucking companies to ensure that every truck is on the most efficient route, maximizing profitability. We tailor our services to meet the specific needs of each trucking company, from owner-operators to large fleet managers. Whether you're looking for reliable truck dispatch services or need assistance with logistics planning, our team is here to support your success.
+              Our expert <strong>truck dispatchers</strong> at <strong>Novelty Logistics</strong> work closely with trucking companies to ensure that every truck is on the most efficient route, maximizing profitability. We tailor our services to meet the specific needs of each trucking company, from owner-operators to large fleet managers. Whether you&apos;re looking for reliable truck dispatch services or need assistance with logistics planning, our team is here to support your success.
             </p>
 
             <ul className="text-gray-700 text-lg mb-6 space-y-3 list-disc pl-5">
@@ -70,7 +70,7 @@ export default function About() {
         <div className="container mx-auto mt-16 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Why Choose Novelty Logistics for Your Truck Dispatching Needs?</h2>
           <p className="text-gray-700 text-lg mb-6 max-w-3xl mx-auto leading-relaxed">
-            At <strong>Novelty Logistics</strong>, we understand the complexities of managing trucks and drivers on the road. Our <strong>dispatch services</strong> are designed to simplify the process, whether you're a small trucking company or a large enterprise. We ensure that every truck is on the right route, carrying the right load, at the right time. With <em>years of expertise</em> in the industry, our team helps you navigate the challenges of logistics management.
+            At <strong>Novelty Logistics</strong>, we understand the complexities of managing trucks and drivers on the road. Our <strong>dispatch services</strong> are designed to simplify the process, whether you&apos;re a small trucking company or a large enterprise. We ensure that every truck is on the right route, carrying the right load, at the right time. With <em>years of expertise</em> in the industry, our team helps you navigate the challenges of logistics management.
           </p>
           <p className="text-gray-700 text-lg mb-6 max-w-3xl mx-auto leading-relaxed">
             Our <strong>dispatchers</strong> take pride in offering personalized service, ensuring that your trucking business receives the attention it deserves. From load matching to route optimization, our <em>logistics experts</em> make your operations more profitable and efficient.
