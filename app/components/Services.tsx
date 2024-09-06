@@ -31,7 +31,7 @@ export default function Services() {
                 className="bg-white backdrop-blur-lg bg-opacity-40 p-8 shadow-lg rounded-lg transition-all transform hover:scale-105 hover:shadow-2xl"
               >
                 <div className="flex justify-center mb-6 text-green-500">
-                  <service.icon size={50} className="text-green-500" alt={`${service.title} icon`} />
+                  <service.icon size={50} className="text-green-500"  />
                 </div>
                 <h3 className="text-2xl font-semibold text-gray-800 mb-4">{service.title}</h3>
                 <p className="text-gray-600">
