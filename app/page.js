@@ -13,6 +13,7 @@ export default function Home() {
   return (
     <>
       <Head>
+      <meta name="google-site-verification" content="Ly8cAnFfnTB8sI8w4_NTkngyhL7ruYkwZ08-oSm6jE8" />
         <title>Novelty Logistics - Expert Truck Dispatching Services</title>
         <meta 
           name="description" 
