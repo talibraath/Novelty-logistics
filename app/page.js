@@ -4,7 +4,7 @@ import Hero from './components/Hero';
 import Services from './components/Services';
 import Contact from './components/Contact';
 import Team from './components/Team';
-import About from './components/About';
+import About from './components/About'
 import Modal from './components/Modal'; // Import the modal component
 import TruckCharges from "./components/TruckCharges";
 import Head from 'next/head'; // Import Head for meta tags

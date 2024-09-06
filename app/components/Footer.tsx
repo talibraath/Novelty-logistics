@@ -24,8 +24,8 @@ export default function Footer() {
           <ul>
             <li><a href="#" className="text-gray-400 hover:text-green-400 transition-colors duration-300">About Us</a></li>
             <li><a href="#" className="text-gray-400 hover:text-green-400 transition-colors duration-300">Contact Us</a></li>
-            <li><a href="#" className="text-gray-400 hover:text-green-400 transition-colors duration-300">Privacy Policy</a></li>
-            <li><a href="#" className="text-gray-400 hover:text-green-400 transition-colors duration-300">Terms & Conditions</a></li>
+            <li><a href="/privacypolicy" className="text-gray-400 hover:text-green-400 transition-colors duration-300">Privacy Policy</a></li>
+            <li><a href="/terms" className="text-gray-400 hover:text-green-400 transition-colors duration-300">Terms & Conditions</a></li>
             <li><a href="#" className="text-gray-400 hover:text-green-400 transition-colors duration-300">FAQs & Help</a></li>
           </ul>
         </div>

@@ -15,7 +15,7 @@ export default function About() {
         <meta property="og:title" content="About Us - Novelty Logistics Truck Dispatching Experts" />
         <meta property="og:description" content="Discover Novelty Logistics, the leading truck dispatch experts providing efficient, reliable, and cost-effective logistics solutions for trucking businesses." />
         <meta property="og:image" content="/images/office.jpg" />
-        <meta property="og:url" content="https://noveltylogistics.vercel.app/#about" />
+        <meta property="og:url" content="https://noveltylogistics.vercel.app/about_noveltylogistics" />
         <meta property="og:type" content="website" />
       </Head>
 
@@ -51,7 +51,7 @@ export default function About() {
               <li>➔ 24/7 Reliable Customer Support</li>
             </ul>
             <a 
-              href="/about" 
+              href="/about_noveltylogistics" 
               className="inline-block bg-green-500 text-white py-3 px-8 rounded-full shadow-lg hover:bg-green-600 transition-all duration-300"
             >
               Read More About Our Truck Dispatch Services
