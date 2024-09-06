@@ -50,36 +50,34 @@ export default function Header() {
         <meta property="og:type" content="website" />
       </Head>
 
-      <header className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${isScrolled ? 'bg-[#1a202c] shadow-lg' : 'bg-transparent'}`}>
+      <header className={`fixed top-0 left-0 w-full z-40 transition-all duration-500 ${isScrolled ? 'bg-[#1a202c] shadow-lg' : 'bg-transparent'}`}>
         {/* Top Bar */}
-        <div className="bg-[#2d3748] text-white text-xs lg:text-sm py-1 hidden lg:block">
-          <div className="container mx-auto flex justify-between items-center">
-            <div className="flex space-x-4">
-              <div className="flex items-center space-x-2">
-                <FaMapMarkerAlt />
-                <span aria-label="Address">230 OCEAN PKWY APT C5 BROOKLYN, NY 11218</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <FaPhoneAlt />
-                <span aria-label="Phone number">(507) 677-5881</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <FaEnvelope />
-                <span aria-label="Email">jordandispatch30@gmail.com</span>
-              </div>
+        <div className="bg-[#2d3748] text-white text-xs lg:text-sm py-1 hidden lg:flex justify-between items-center px-5 lg:px-8" style={{ height: '40px' }}>
+          <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-2">
+              <FaMapMarkerAlt />
+              <span aria-label="Address">230 OCEAN PKWY APT C5 BROOKLYN, NY 11218</span>
             </div>
-            <div className="flex space-x-3">
-              <Link href="https://twitter.com" passHref aria-label="Follow us on Twitter"><FaTwitter className="hover:text-gray-400 transition-colors duration-300" /></Link>
-              <Link href="https://facebook.com" passHref aria-label="Follow us on Facebook"><FaFacebookF className="hover:text-gray-400 transition-colors duration-300" /></Link>
-              <Link href="https://linkedin.com" passHref aria-label="Follow us on LinkedIn"><FaLinkedinIn className="hover:text-gray-400 transition-colors duration-300" /></Link>
-              <Link href="https://instagram.com" passHref aria-label="Follow us on Instagram"><FaInstagram className="hover:text-gray-400 transition-colors duration-300" /></Link>
-              <Link href="https://youtube.com" passHref aria-label="Follow us on YouTube"><FaYoutube className="hover:text-gray-400 transition-colors duration-300" /></Link>
+            <div className="flex items-center space-x-2">
+              <FaPhoneAlt />
+              <span aria-label="Phone number">(507) 677-5881</span>
             </div>
+            <div className="flex items-center space-x-2">
+              <FaEnvelope />
+              <span aria-label="Email">jordandispatch30@gmail.com</span>
+            </div>
+          </div>
+          <div className="flex space-x-3">
+            <Link href="https://twitter.com" passHref aria-label="Follow us on Twitter"><FaTwitter className="hover:text-gray-400 transition-colors duration-300" /></Link>
+            <Link href="https://facebook.com" passHref aria-label="Follow us on Facebook"><FaFacebookF className="hover:text-gray-400 transition-colors duration-300" /></Link>
+            <Link href="https://linkedin.com" passHref aria-label="Follow us on LinkedIn"><FaLinkedinIn className="hover:text-gray-400 transition-colors duration-300" /></Link>
+            <Link href="https://instagram.com" passHref aria-label="Follow us on Instagram"><FaInstagram className="hover:text-gray-400 transition-colors duration-300" /></Link>
+            <Link href="https://youtube.com" passHref aria-label="Follow us on YouTube"><FaYoutube className="hover:text-gray-400 transition-colors duration-300" /></Link>
           </div>
         </div>
 
         {/* Main Navigation */}
-        <div className={`container mx-auto flex justify-between items-center py-4 px-5 lg:px-8 transition-colors duration-500 ${isScrolled ? 'bg-[#1a202c] text-white' : 'bg-transparent text-white'}`}>
+        <div className={`container mx-auto flex justify-between items-center py-2 px-5 lg:px-8 transition-colors duration-500 ${isScrolled ? 'bg-[#1a202c] text-white' : 'bg-transparent text-white'}`}>
           <Link href="/" passHref aria-label="Novelty Logistics Home">
             <Image 
               src="/images/logo.jpg" 
@@ -102,7 +100,7 @@ export default function Header() {
             <div className="fixed inset-0 bg-black bg-opacity-50 backdrop-blur-lg z-40 transition-opacity duration-300 ease-in-out" onClick={toggleMenu}></div>
           )}
 
-          {/* Navigation Links with Glassmorphism and Smooth Animation */}
+          {/* Navigation Links */}
           <nav className={`fixed top-0 right-0 h-full w-3/4 max-w-xs bg-[#1a202c] bg-opacity-90 backdrop-blur-md shadow-xl transition-transform duration-500 transform ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} z-50 lg:relative lg:translate-x-0 lg:flex lg:items-center lg:space-x-4 text-sm lg:text-base font-semibold lg:bg-transparent`} aria-label="Main navigation">
             <ul className="flex flex-col lg:flex-row space-y-6 lg:space-y-0 lg:space-x-4 items-center mt-24 lg:mt-0 px-5 lg:px-0">
               <li onClick={handleLinkClick} className="hover:scale-105 transition-transform duration-300">
