@@ -119,7 +119,7 @@ export default function Header() {
                 <Link href="/#team" className="hover:text-[#7fe400] transition-colors duration-300">Team</Link>
               </li>
               <li onClick={handleLinkClick} className="hover:scale-105 transition-transform duration-300">
-                <Link href="/#about_noveltylogistics" className="hover:text-[#7fe400] transition-colors duration-300">About</Link>
+                <Link href="/#about" className="hover:text-[#7fe400] transition-colors duration-300">About</Link>
               </li>
               
               <li onClick={handleLinkClick}>
