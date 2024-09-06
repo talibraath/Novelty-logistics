@@ -15,7 +15,7 @@ export default function About() {
         <meta property="og:title" content="About Us - Novelty Logistics Truck Dispatching Experts" />
         <meta property="og:description" content="Discover Novelty Logistics, the leading truck dispatch experts providing efficient, reliable, and cost-effective logistics solutions for trucking businesses." />
         <meta property="og:image" content="/images/office.jpg" />
-        <meta property="og:url" content="https://www.noveltylogistics.com/about" />
+        <meta property="og:url" content="https://noveltylogistics.vercel.app/#about" />
         <meta property="og:type" content="website" />
       </Head>
 

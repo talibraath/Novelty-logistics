@@ -1,10 +1,40 @@
 import Image from 'next/image';
 import Header from '../components/Header'; // Assuming Header is a component
 import Footer from '../components/Footer'; // Assuming Footer is a component
+import Head from 'next/head';
 
 export default function About() {
     return (
       <>
+        <Head>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Novelty Logistics",
+            "url": "https://noveltylogistics.vercel.app",
+            "logo": "https://noveltylogistics.vercel.app/logo.png",
+            "sameAs": [
+              "https://twitter.com/noveltylogistics",
+              "https://linkedin.com/company/noveltylogistics"
+            ]
+          })}
+        </script>
+          <title>About Us - Novelty Logistics</title>
+          <meta 
+            name="description" 
+            content="Learn more about Novelty Logistics, a top-tier provider of truck dispatching services. Our focus is on transparency, efficiency, and 24/7 support for trucking businesses nationwide." 
+          />
+          <meta 
+            name="keywords" 
+            content="truck dispatching, trucking services, logistics support, trucking industry, 24/7 dispatch service, trucking business" 
+          />
+          <meta property="og:title" content="About Us - Novelty Logistics" />
+          <meta property="og:description" content="Novelty Logistics offers premier truck dispatching services for trucking businesses across the nation. Explore our commitment to efficiency and customer satisfaction." />
+          <meta property="og:url" content="https://noveltylogistics.vercel.app/about" />
+          <meta property="og:type" content="website" />
+        </Head>
+
         {/* Header */}
         <Header />
 
@@ -43,7 +73,7 @@ export default function About() {
             <div className="w-full md:w-1/2">
               <Image 
                 src="/images/office.jpg"  // Make sure this image exists and is correctly linked
-                alt="About Us"
+                alt="Novelty Logistics Office"
                 width={600}
                 height={400}
                 className="rounded-lg shadow-lg hover:scale-105 transition-transform"
@@ -76,7 +106,7 @@ export default function About() {
               <div className="w-full md:w-1/2">
                 <Image 
                   src="/images/truck.jpg"  // Make sure this image exists
-                  alt="Our Mission"
+                  alt="Trucking Business at Novelty Logistics"
                   width={600}
                   height={400}
                   className="rounded-lg shadow-lg hover:scale-105 transition-transform"

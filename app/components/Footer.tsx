@@ -1,5 +1,20 @@
+import Head from 'next/head';
+
+
 export default function Footer() {
   return (
+
+    <>
+     <Head>
+        <title>Truck Dispatching Services & Charges - Novelty Logistics</title>
+        <meta name="description" content="Explore Novelty Logistics' competitive truck dispatching charges for various trucks, including box trucks, reefer trucks, dry vans, and flatbed trucks. Get the best rates for your business needs." />
+        <meta name="keywords" content="truck dispatching services, truck charges, box truck, reefer truck, dry van, flatbed truck, stepdeck truck, hotshot trucking" />
+        <meta name="author" content="Novelty Logistics" />
+        <meta property="og:title" content="Truck Dispatching Services & Charges - Novelty Logistics" />
+        <meta property="og:description" content="Check out the truck dispatching charges for different types of trucks at Novelty Logistics, including box trucks, dry vans, reefer trucks, and more." />
+        <meta property="og:url" content="https://noveltylogistics.vercel.app/" />
+        <meta property="og:type" content="website" />
+      </Head>
     <footer className="bg-gray-900 text-white py-12">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
         
@@ -19,8 +34,9 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-bold mb-6 text-green-400">Contact</h3>
           <p className="text-gray-400">230 OCEAN PKWY APT C5<br />BROOKLYN, NY 11218</p>
-          <p className="text-gray-400 mt-2">(347) 544-9476</p>
-          <p className="text-gray-400 mt-2">ronniedispatch20@gmail.com</p>
+          <p className="text-gray-400 mt-2">(507) 677-5881
+          </p>
+          <p className="text-gray-400 mt-2">jordandispatch30@gmail.com</p>
           <div className="flex space-x-4 mt-6">
             <a href="#" className="text-gray-400 hover:text-green-400 transition-colors duration-300">
               <i className="fab fa-twitter"></i>
@@ -93,5 +109,7 @@ export default function Footer() {
 
       </div>
     </footer>
+
+    </>
   );
 }

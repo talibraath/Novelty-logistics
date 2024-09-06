@@ -1,8 +1,22 @@
 import Image from 'next/image';
 import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
+import Head from 'next/head';
 
 export default function Team() {
   return (
+
+    <>
+
+<Head>
+        <title>Truck Dispatching Services & Charges - Novelty Logistics</title>
+        <meta name="description" content="Explore Novelty Logistics' competitive truck dispatching charges for various trucks, including box trucks, reefer trucks, dry vans, and flatbed trucks. Get the best rates for your business needs." />
+        <meta name="keywords" content="truck dispatching services, truck charges, box truck, reefer truck, dry van, flatbed truck, stepdeck truck, hotshot trucking" />
+        <meta name="author" content="Novelty Logistics" />
+        <meta property="og:title" content="Truck Dispatching Services & Charges - Novelty Logistics" />
+        <meta property="og:description" content="Check out the truck dispatching charges for different types of trucks at Novelty Logistics, including box trucks, dry vans, reefer trucks, and more." />
+        <meta property="og:url" content="https://noveltylogistics.vercel.app/" />
+        <meta property="og:type" content="website" />
+      </Head>
     <section id="team" className="py-16 bg-gradient-to-r from-gray-50 to-gray-100">
       <div className="container mx-auto text-center">
         <h2 className="text-5xl font-extrabold text-gray-800 mb-12">Meet Our Guide</h2>
@@ -113,5 +127,6 @@ export default function Team() {
         </div>
       </div>
     </section>
+    </>
   );
 }

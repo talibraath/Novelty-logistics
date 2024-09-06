@@ -1,7 +1,18 @@
-import Image from 'next/image';
+import Head from 'next/head';
 
 export default function Contact() {
   return (
+    <>
+     <Head>
+        <title>Truck Dispatching Services & Charges - Novelty Logistics</title>
+        <meta name="description" content="Explore Novelty Logistics' competitive truck dispatching charges for various trucks, including box trucks, reefer trucks, dry vans, and flatbed trucks. Get the best rates for your business needs." />
+        <meta name="keywords" content="truck dispatching services, truck charges, box truck, reefer truck, dry van, flatbed truck, stepdeck truck, hotshot trucking" />
+        <meta name="author" content="Novelty Logistics" />
+        <meta property="og:title" content="Truck Dispatching Services & Charges - Novelty Logistics" />
+        <meta property="og:description" content="Check out the truck dispatching charges for different types of trucks at Novelty Logistics, including box trucks, dry vans, reefer trucks, and more." />
+        <meta property="og:url" content="https://noveltylogistics.vercel.app/" />
+        <meta property="og:type" content="website" />
+      </Head>
     <section id="contact" className="relative bg-cover bg-center bg-no-repeat py-16" style={{ backgroundImage: "url('/image/hero.jpg')" }}>
       <div className="container mx-auto px-6">
         <div className="flex flex-wrap justify-between">
@@ -66,5 +77,6 @@ export default function Contact() {
         </div>
       </div>
     </section>
+    </>
   );
 }
