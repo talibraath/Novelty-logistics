@@ -21,7 +21,7 @@ export default function Home() {
         />
         <meta 
           name="keywords" 
-          content="truck dispatching, logistics services, trucking solutions, dispatching services, load management, Novelty Logistics, truck charges, personalized dispatch" 
+          content="truck dispatching, logistics services,novelty logistics,novelty trucks, novelty dispatcher,truck dispatcher,novelty, trucking solutions, dispatching services, load management, Novelty Logistics, truck charges, personalized dispatch" 
         />
         <meta name="author" content="Novelty Logistics" />
         <meta property="og:title" content="Novelty Logistics - Expert Truck Dispatching Services" />

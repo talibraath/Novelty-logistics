@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image';
 
 
 export default function Footer() {
@@ -54,15 +55,7 @@ export default function Footer() {
         </div>
 
         {/* Gallery Section */}
-        <div>
-          <h3 className="text-lg font-bold mb-6 text-green-400">Gallery</h3>
-          <div className="grid grid-cols-2 gap-2">
-            <div className="h-20 w-full bg-gray-700 rounded-lg"></div>
-            <div className="h-20 w-full bg-gray-700 rounded-lg"></div>
-            <div className="h-20 w-full bg-gray-700 rounded-lg"></div>
-            <div className="h-20 w-full bg-gray-700 rounded-lg"></div>
-          </div>
-        </div>
+    
 
         {/* Newsletter Section */}
         <div>
