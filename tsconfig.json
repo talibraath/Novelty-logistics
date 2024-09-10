@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/components/Footer.js", "app/components/Footer.js", "app/components/Header.js", "app/components/Hero.js", "app/components/Services.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/components/Footer.js", "app/components/Footer.js", "app/components/Header.js", "app/components/Hero.js", "app/components/Services.js", "pages/index.js"],
   "exclude": ["node_modules"]
 }
