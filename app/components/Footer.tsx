@@ -89,7 +89,7 @@ export default function Footer() {
         </div>
         {/* Developed by Section */}
         <div className="mt-8 text-gray-400">
-  Developed by 
+  Developed by
   <a 
     href="https://www.linkedin.com/in/talib-raath" 
     target="_blank" 
