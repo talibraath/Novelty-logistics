@@ -40,7 +40,7 @@ export default function Hero() {
           </p>
 
           {/* Call to Action Button */}
-          <a href="/services" aria-label="Learn more about our truck dispatching services">
+          <a href="/#services" aria-label="Learn more about our truck dispatching services">
             <button className="mt-8 bg-[#7fe400] hover:bg-[#6fc100] text-black py-3 px-8 rounded-full font-semibold shadow-lg transition-transform transform hover:scale-110 duration-300 ease-in-out animate-bounceIn">
               Learn More
             </button>

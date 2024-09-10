@@ -101,8 +101,8 @@ export default function Header() {
           )}
 
           {/* Navigation Links */}
-          <nav className={`fixed top-0 right-0 h-full w-3/4 max-w-xs bg-[#1a202c] bg-opacity-90 backdrop-blur-md shadow-xl transition-transform duration-500 transform ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} z-50 lg:relative lg:translate-x-0 lg:flex lg:items-center lg:space-x-4 text-sm lg:text-base font-semibold lg:bg-transparent`} aria-label="Main navigation">
-            <ul className="flex flex-col lg:flex-row space-y-6 lg:space-y-0 lg:space-x-4 items-center mt-24 lg:mt-0 px-5 lg:px-0">
+          <nav className={`fixed top-0 right-0 h-full w-3/4 max-w-xs bg-[#1a202c] bg-opacity-90 backdrop-blur-md shadow-xl transition-transform duration-500 transform ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} z-50 lg:relative lg:translate-x-0 lg:flex lg:items-center lg:space-x-4 text-sm lg:text-base font-semibold lg:bg-transparent`} style={{ left: '-40px' }} aria-label="Main navigation">
+          <ul className="flex flex-col lg:flex-row space-y-6 lg:space-y-0 lg:space-x-4 items-center mt-24 lg:mt-0 px-5 lg:px-0">
               <li onClick={handleLinkClick} className="hover:scale-105 transition-transform duration-300">
                 <Link href="/" className="hover:text-[#7fe400] transition-colors duration-300">Home</Link>
               </li>
